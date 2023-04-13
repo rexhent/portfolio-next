@@ -4,7 +4,7 @@ export function ContentCenter() {
   return (
     <div className={`${styles.contentCenter} ml-1`}>
       <p>Hello World! I am a aspiring Web and Linux Developer.</p>
-      <p>I'm currently learning CSS and React with NextJS.</p>
+      <p>I&apos;m currently learning CSS and React with NextJS.</p>
     </div>
   );
 }
