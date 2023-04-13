@@ -1,4 +1,5 @@
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 export default function TopBar() {
   return (
@@ -12,12 +13,14 @@ export default function TopBar() {
         <div
           className={`${styles.linksContainer} underline flex flex-row-reverse`}
         >
-          <a href="#">Home</a>
+          <Link href="/">Home</Link>
           <a href="#">Blog</a>
           <a href="https://github.com/rexhent" target="_blank">
             GitHub
           </a>
-          <a href="#">Source</a>
+          <a href="https://github.com/rexhent/portfolio-next" target="_blank">
+            Source
+          </a>
         </div>
       </div>
     </>
