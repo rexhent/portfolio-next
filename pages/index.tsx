@@ -22,7 +22,6 @@ export default function Home() {
         <div className={styles.mainContainer}>
           {/* <ContentLeft /> */}
           <ContentCenter />
-          <Button />
           {/* <ContentRight /> */}
         </div>
         <Footer />
