@@ -24,6 +24,9 @@ export default function NavBar() {
           >
             Source
           </a>
+          <a href="https://game1.rexhent.xyz" className="mr-1" target="_blank">
+            JS Game
+          </a>
         </div>
       </div>
     </>
