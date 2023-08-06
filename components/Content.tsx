@@ -18,9 +18,5 @@ export function ContentRight() {
 }
 
 export function ContentLeft() {
-  return (
-    <div className={styles.contentLeft}>
-      <p>Hello World!</p>
-    </div>
-  );
+  return <div className={styles.contentLeft}></div>;
 }

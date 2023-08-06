@@ -1,10 +1,11 @@
 import NavBar from "@/components/NavBar/NavBar";
+import Data from "@/components/Data";
 
 export default function Home() {
   return (
     <>
       <NavBar />
-      <h1>Hello World</h1>
+      <Data />
     </>
   );
 }
