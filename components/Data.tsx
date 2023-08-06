@@ -8,7 +8,7 @@ export default function Data() {
       const fetchData = async () => {
         try {
           const response = await fetch(
-            process.env.BACKEND_API_IP
+            "http://170.64.185.29:5000/get-variable"
             // "http://localhost:5191/get-variable"
           );
           const data = await response.text();
