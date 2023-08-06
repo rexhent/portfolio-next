@@ -3,13 +3,12 @@ import { useEffect, useState } from "react";
 export default function Data() {
   const [data, setData] = useState("Loading...");
   const [responseReceived, setResponseReceived] = useState(false);
-  const backend_ip = process.env.BACKEND_API_IP;
   useEffect(() => {
     if (data) {
       const fetchData = async () => {
         try {
           const response = await fetch(
-            backend_ip
+            process.env.BACKEND_API_IP
             // "http://localhost:5191/get-variable"
           );
           const data = await response.text();
